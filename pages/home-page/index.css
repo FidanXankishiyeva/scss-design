@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.container {
+  padding: 17px 21px 50px 77px;
+  background: linear-gradient(144deg, #190422 21.1%, #190422 102.96%);
+}
+.container nav {
+  display: flex;
+  align-items: center;
+}
+.container nav h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Poppins;
+  margin-right: 267px;
+  color: #fff;
+  line-height: normal;
+}
+.container nav h1 span {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #bc8afc;
+  line-height: normal;
+}
+.container nav ul {
+  margin-right: 75px;
+  display: flex;
+  align-items: center;
+}
+.container nav ul li {
+  margin-right: 59px;
+}
+.container nav ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container nav button {
+  width: 132px;
+  height: 58px;
+  border-radius: 7px;
+  background: #bc8afc;
+  box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+}
+.container nav button a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .fleksboks {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .fleksboks .text-box {
+  margin-right: 119px;
+}
+.container .fleksboks .text-box h2 {
+  margin-bottom: 32px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.container .fleksboks .text-box p {
+  margin-bottom: 32px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158%;
+}
+.container .fleksboks .text-box button {
+  width: 212px;
+  padding: 12px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  background: #bc8afc;
+  box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+}
+.container .fleksboks .text-box button a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=index.css.map */
