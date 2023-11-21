@@ -2,7 +2,7 @@
 .container {
   .page-1 {
     width: 100%;
-    padding: 17px 21px 131px 77px;
+    padding: 17px 21px 50px 77px;
     background: linear-gradient(144deg, #190422 21.1%, #190422 102.96%);
     @media screen and (max-width: 1024px) {
       padding: 19px 11px 29px 40px;
@@ -152,12 +152,11 @@
   .page-2 {
 
     /* padding: 71px 97px 52px 73px; */
-    position: relative;
+    pos
     @media screen and (max-width: 1024px) {
       padding: 40px;
     }
     .collaje{
-      padding: 230px 97px 100px 37px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -166,9 +165,8 @@
       width: 83%;
       padding: 51px 162px 47px 151px;
        position: absolute;
-    top: -90px;
- left: 50%;
- transform: translateX(-50%);
+     bottom: 1px;
+      left: 80px;
       border-radius: 16px;
       background: #fff;
       box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
