@@ -154,24 +154,40 @@
     height: 454.266px;
   }
 }
-.container .card-box {
+.container .page-2 {
+  /* padding: 71px 97px 52px 73px; */
+}
+@media screen and (max-width: 1024px) {
+  .container .page-2 {
+    padding: 40px;
+  }
+}
+.container .page-2 .collaje {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .page-2 .card-box {
   width: 1280px;
   padding: 51px 162px 47px 151px;
+  /* // position: absolute;
+  // bottom: 1px;
+  // left: 80px; */
   border-radius: 16px;
   background: #fff;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (max-width: 1024px) {
-  .container .card-box {
+  .container .page-2 .card-box {
     width: 753px;
     padding: 40px 101px 40px 77px;
   }
 }
-.container .card-box ul {
+.container .page-2 .card-box ul {
   display: flex;
   justify-content: space-between;
 }
-.container .card-box ul li h3 {
+.container .page-2 .card-box ul li h3 {
   color: #1f262e;
   font-family: Poppins;
   font-size: 40px;
@@ -179,7 +195,7 @@
   font-weight: 600;
   line-height: normal;
 }
-.container .card-box ul li h3 span {
+.container .page-2 .card-box ul li h3 span {
   color: #bc8afc;
   font-family: Poppins;
   font-size: 40px;
@@ -187,24 +203,13 @@
   font-weight: 600;
   line-height: normal;
 }
-.container .card-box ul li p {
+.container .page-2 .card-box ul li p {
   color: #1f262e;
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-.container .page-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 71px 97px 52px 73px;
-}
-@media screen and (max-width: 1024px) {
-  .container .page-2 {
-    padding: 40px;
-  }
 }
 .container .page-2 img {
   width: 562px;
@@ -266,4 +271,4 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index_20231121141225.css.map */
