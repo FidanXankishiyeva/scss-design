@@ -51,11 +51,9 @@
       font-weight: 400;
       line-height: 158%;
       @media screen and (max-width: 1024px) {
-        width: 365px;
+        width: 100%;
       }
-      @media screen and (max-width: 768px) {
-        width: 355px;
-      }
+   
     }
     ul {
       li {

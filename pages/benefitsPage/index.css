@@ -62,12 +62,7 @@
 }
 @media screen and (max-width: 1024px) {
   .container .text-ccntainer p {
-    width: 365px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container .text-ccntainer p {
-    width: 355px;
+    width: 100%;
   }
 }
 .container .text-ccntainer ul li {
